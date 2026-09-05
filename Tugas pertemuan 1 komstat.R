@@ -19,10 +19,12 @@ v_char
 
 #2. Membuat matrix 4x4
 m <- matrix(1:16, nrow = 4, ncol = 4)
+m
 
 #3. Membuat array 4D
 a <- array(1:24, dim = c(2, 3, 2, 2))
-            
+a
+
 #4. Membuat data frame 4 kolom berisi:(character,numeric,logical,logical)
 df <- data.frame(
   nama          = c("Andi", "Budi", "Citra", "Dewi"), 
